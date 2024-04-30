@@ -349,4 +349,4 @@ Esto definitivamente convertiría a muchos miembros ocasionales en miembros real
 
 # Presentación
 ![Presentación](/img/Cyclistic_PPT.jpg)
-[Presentación](https://es.slideshare.net/slideshow/anlisis-de-datos-en-accin-optimizando-el-crecimiento-de-cyclistic/267679552':include :type=iframe width=100% height=400px')
+[Presentación](https://es.slideshare.net/slideshow/anlisis-de-datos-en-accin-optimizando-el-crecimiento-de-cyclistic/267679552 ':include :type=video controls width=100%')
