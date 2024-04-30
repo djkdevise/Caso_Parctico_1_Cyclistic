@@ -348,4 +348,5 @@ Mi recomendación para los interesados sería volver a implementar un sistema de
 Esto definitivamente convertiría a muchos miembros ocasionales en miembros reales, ya que a los usuarios ocasionales les preocupa más la duración.
 
 # Presentación
-![Presentación](<iframe width="320" height="180" src="https://www.slideshare.net/slideshow/embed_code/key/n30JGWVrr9U76i?hostedIn=slideshare&page=upload" frameborder="0" marginwidth="0" marginheight="0" scrolling="1"></iframe>)
+![Presentación](/img/Cyclistic_PPT.jpg)
+[Presentación](https://es.slideshare.net/slideshow/anlisis-de-datos-en-accin-optimizando-el-crecimiento-de-cyclistic/267679552':include :type=iframe width=100% height=400px')
