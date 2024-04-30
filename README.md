@@ -321,3 +321,16 @@ ggplot(aes(x = weekday, y = number_of_rides, fill = member_casual)) +
 geom_col(position = "dodge")
 ```
 ![Viajes por tipo de usuario](/img/viajes_por_tipo_de_usuario.jpg)
+
+### visualización para la duración promedio.
+```{r}
+all_trips_v2 %>% 
+  mutate(weekday = wday(started_at, label = TRUE)) %>% 
+  group_by(member_casual, weekday) %>% 
+  summarise(number_of_rides = n()
+            ,average_duration = mean(ride_length)) %>% 
+  arrange(member_casual, weekday)  %>% 
+  ggplot(aes(x = weekday, y = average_duration, fill = member_casual)) +
+  geom_col(position = "dodge")
+```
+![visualización para la duración promedio](/img/visualización_duración_promedio.jpg)
