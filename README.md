@@ -322,7 +322,7 @@ geom_col(position = "dodge")
 ```
 ![Viajes por tipo de usuario](/img/viajes_por_tipo_de_usuario.jpg)
 
-### visualización para la duración promedio.
+### Visualización para la duración promedio.
 ```{r}
 all_trips_v2 %>% 
   mutate(weekday = wday(started_at, label = TRUE)) %>% 
@@ -334,3 +334,15 @@ all_trips_v2 %>%
   geom_col(position = "dodge")
 ```
 ![visualización para la duración promedio](/img/visualización_duración_promedio.jpg)
+
+## Paso 6: Actuar
+En esta fase, analizamos detenidamente nuestro problema de datos y el análisis que realizamos para tomar decisiones basadas en datos.
+### La Historia que nos Cuenta los Datos:
+Podemos concluir claramente que los miembros utilizan más Cyclistic los días laborables y que su número de viajes es mucho mayor que el de los usuarios ocasionales.
+
+Por otro lado, los miembros ocasionales utilizan las bicicletas Cyclistic durante períodos de tiempo más largos que los miembros regulares. Esto se debe a que los miembros mayoritariamente las utilizan como vehículo para desplazamientos, mientras que los usuarios ocasionales las utilizan principalmente por diversión, lo que incrementa su duración.
+
+### Conclusión
+Mi recomendación para los interesados sería volver a implementar un sistema de precios que sea sensible a la duración en lugar de al número de viajes, es decir, que las tarifas sean las mismas, pero si eres miembro deberías poder utilizar la bicicleta durante períodos de tiempo más largos en comparación con los usuarios ocasionales.
+
+Esto definitivamente convertiría a muchos miembros ocasionales en miembros reales, ya que a los usuarios ocasionales les preocupa más la duración.
