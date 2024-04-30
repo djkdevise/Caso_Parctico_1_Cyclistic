@@ -346,3 +346,6 @@ Por otro lado, los miembros ocasionales utilizan las bicicletas Cyclistic durant
 Mi recomendación para los interesados sería volver a implementar un sistema de precios que sea sensible a la duración en lugar de al número de viajes, es decir, que las tarifas sean las mismas, pero si eres miembro deberías poder utilizar la bicicleta durante períodos de tiempo más largos en comparación con los usuarios ocasionales.
 
 Esto definitivamente convertiría a muchos miembros ocasionales en miembros reales, ya que a los usuarios ocasionales les preocupa más la duración.
+
+# Presentación
+<iframe src="https://www.slideshare.net/slideshow/embed_code/key/n30JGWVrr9U76i?hostedIn=slideshare&page=upload" width="476" height="400" frameborder="0" marginwidth="0" marginheight="0" scrolling="no"></iframe>
