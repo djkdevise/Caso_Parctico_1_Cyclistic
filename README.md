@@ -308,4 +308,16 @@ counts <- aggregate(all_trips_v2$ride_length ~ all_trips_v2$member_casual + all_
 write.csv(counts, file = "C:/Users/JAMITH/OneDrive/Escritorio/alltrips_v2_2020.csv")
 
 ```
-
+## Creando visualizaciones utilizando ggplot2.
+### Visualizando el número de viajes por tipo de usuario.
+```{r}
+all_trips_v2 %>%
+mutate(weekday = wday(started_at, label = TRUE)) %>%
+group_by(member_casual, weekday) %>%
+summarise(number_of_rides = n()
+,average_duration = mean(ride_length)) %>%
+arrange(member_casual, weekday)  %>%
+ggplot(aes(x = weekday, y = number_of_rides, fill = member_casual)) +
+geom_col(position = "dodge")
+```
+![Viajes por tipo de usuario](/img/viajes_por_tipo_de_usuario.jpg)
