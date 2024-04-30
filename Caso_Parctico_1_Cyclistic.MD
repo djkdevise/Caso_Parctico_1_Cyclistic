@@ -1,8 +1,3 @@
----
-title: "R Notebook"
-output: html_notebook
----
-
 # Introducción
 
 Un análisis en profundidad del comportamiento de ciclistas ocasionales y
