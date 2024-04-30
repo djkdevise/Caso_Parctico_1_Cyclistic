@@ -348,4 +348,4 @@ Mi recomendación para los interesados sería volver a implementar un sistema de
 Esto definitivamente convertiría a muchos miembros ocasionales en miembros reales, ya que a los usuarios ocasionales les preocupa más la duración.
 
 # Presentación
-<iframe width="320" height="180" src="https://www.slideshare.net/slideshow/embed_code/key/n30JGWVrr9U76i?hostedIn=slideshare&page=upload" frameborder="0" marginwidth="0" marginheight="0" scrolling="1"></iframe>
+![Presentación](<iframe width="320" height="180" src="https://www.slideshare.net/slideshow/embed_code/key/n30JGWVrr9U76i?hostedIn=slideshare&page=upload" frameborder="0" marginwidth="0" marginheight="0" scrolling="1"></iframe>)
