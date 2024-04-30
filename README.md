@@ -1,3 +1,4 @@
+![Portada](/img/portada.jpg)
 # Introducción
 
 Un análisis en profundidad del comportamiento de ciclistas ocasionales y
